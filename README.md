@@ -4,7 +4,8 @@
 
     conda activate main-ds
 
-    pip install numpy pandas scipy matplotlib seaborn jupyter streamlit babel
+    pip install requirements.txt
+   
 
 # Run streamlit app
 
