@@ -170,7 +170,7 @@ def load_data():
                 # GANTI FILE_ID dengan ID file Google Drive Anda
                 # Cara dapat ID: Share file → Copy link → Extract ID dari URL
                 # URL: https://drive.google.com/file/d/FILE_ID_DISINI/view
-                file_id = 'https://drive.google.com/file/d/1tEDiDR8IPIwDbxLryW1RnTBJdjR_J2v-/view?usp=sharing'
+                file_id = 'https://drive.google.com/drive/folders/129WKEQeRAFlKfsVOX4_zOx9G0YqkLKr5?usp=sharing'
                 url = f'https://drive.google.com/uc?id={file_id}'
                 
                 try:
@@ -858,5 +858,6 @@ def display_association_rules(df_market, market_name):
 # ============================
 if __name__ == "__main__":
     main()
+
 
 
