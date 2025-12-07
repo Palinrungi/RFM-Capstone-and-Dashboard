@@ -2,7 +2,7 @@
 
 Dashboard interaktif untuk analisis RFM (Recency, Frequency, Monetary) dengan K-Means Clustering, Customer Lifetime Value (CLV), dan Market Basket Analysis.
 
-## 🎯 Fitur Dashboard
+## Fitur Dashboard
 
 ### 1. **Overview**
 - Total Revenue, Customers, Transactions
@@ -52,7 +52,7 @@ Dashboard interaktif untuk analisis RFM (Recency, Frequency, Monetary) dengan K-
 - Support, Confidence, Lift Metrics
 - Interactive visualization
 
-## 📦 Installation
+## Installation
 
 ### 1. Install Dependencies
 
@@ -68,7 +68,7 @@ streamlit run dashboard_rfm.py
 
 Dashboard akan otomatis terbuka di browser pada `http://localhost:8501`
 
-## 🚀 Quick Start
+## Quick Start
 
 1. **Clone atau Download Project**
 2. **Install Dependencies**: `pip install -r requirements.txt`
@@ -76,7 +76,7 @@ Dashboard akan otomatis terbuka di browser pada `http://localhost:8501`
 4. **Pilih Market**: UK, Non-UK, atau Both
 5. **Explore Pages**: Navigate menggunakan sidebar
 
-## 📊 Dataset
+## Dataset
 
 Dashboard menggunakan dataset E-Commerce dari Google Drive yang berisi:
 - InvoiceNo: Invoice number
@@ -88,27 +88,27 @@ Dashboard menggunakan dataset E-Commerce dari Google Drive yang berisi:
 - CustomerID: Customer unique ID
 - Country: Customer country
 
-## 🎨 Pages Available
+## Pages Available
 
-### 📈 Overview Page
+### Overview Page
 Dashboard utama dengan key metrics dan visualisasi bisnis overview
 
-### 🎯 RFM Analysis Page
+### RFM Analysis Page
 Analisis mendalam RFM metrics dengan distribusi dan correlation
 
-### 👥 Customer Segments Page
+### Customer Segments Page
 Segmentasi customer dengan 10 kategori dan performance metrics
 
-### 🔍 K-Means Clustering Page
+### K-Means Clustering Page
 Machine Learning clustering dengan PCA visualization
 
-### 💰 CLV Analysis Page
+### CLV Analysis Page
 Customer Lifetime Value analysis dan segmentation
 
-### 🛒 Market Basket Analysis Page
+### Market Basket Analysis Page
 Product recommendation menggunakan association rules
 
-## 📱 Features
+## Features
 
 - **Interactive Visualizations**: Menggunakan Plotly untuk grafik interaktif
 - **Market Selection**: Pilih UK, Non-UK, atau Both markets
@@ -117,7 +117,7 @@ Product recommendation menggunakan association rules
 - **Export Ready**: Dapat export data dari tabel
 - **Parameter Tuning**: Adjust parameters untuk clustering dan association rules
 
-## 🔧 Customization
+## Customization
 
 ### Ubah Minimum Support (Market Basket Analysis)
 ```python
@@ -140,14 +140,14 @@ def load_data():
     ...
 ```
 
-## 📝 Notes
+## Notes
 
 - Dashboard menggunakan caching untuk performa optimal
 - Data preprocessing dilakukan otomatis
 - Semua visualisasi interaktif dan dapat di-zoom/pan
 - Export data dari tabel dengan klik kanan > Save As
 
-## 🛠️ Technology Stack
+## Technology Stack
 
 - **Streamlit**: Web framework
 - **Pandas**: Data manipulation
@@ -157,14 +157,15 @@ def load_data():
 - **mlxtend**: Market Basket Analysis (Apriori)
 - **Seaborn**: Statistical visualizations
 
-## 📧 Support
+## Support
 
 Jika ada pertanyaan atau issue, silakan buat issue di repository ini.
 
-## 📄 License
+## License
 
 MIT License - Feel free to use and modify!
 
 ---
 
-**Happy Analyzing! 📊**
+**Happy Analyzing! **
+
