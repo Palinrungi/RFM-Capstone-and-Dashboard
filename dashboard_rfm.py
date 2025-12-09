@@ -379,7 +379,7 @@ def main():
         
         # Customer Behavior
         st.markdown("---")
-        st.subheader("👥 Customer Behavior Analysis")
+        st.subheader("Customer Behavior Analysis")
         
         col1, col2 = st.columns(2)
         
@@ -856,3 +856,4 @@ def display_association_rules(df_market, market_name):
 # ============================
 if __name__ == "__main__":
     main()
+
