@@ -1,3 +1,12 @@
+# RFM-Based Clustering for Marketing Personalization in Online Retail
+
+## ID Tim Capstone Project	: A25-CS267
+
+## List Anggota 
+- M454D5Y1594 - Rachmat Kahfiwan Nur - Machine Learning
+- M278D5Y0002 - A.Muh.Bintang Palinrungi- Machine Learning
+- M006D5Y1669 - Reditya Imanuel Yuwono - Machine Learning
+
 # RFM Analysis Dashboard
 
 Dashboard interaktif untuk analisis RFM (Recency, Frequency, Monetary) dengan K-Means Clustering, Customer Lifetime Value (CLV), dan Market Basket Analysis.
@@ -168,4 +177,5 @@ MIT License - Feel free to use and modify!
 ---
 
 **Happy Analyzing! **
+
 
